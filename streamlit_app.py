@@ -41,7 +41,7 @@ try:
 except URLError as e:
   streamlit.error()
 
-streamlit.stop()
+# streamlit.stop()
 
 # function load fruits to load
 def get_fruits_load_list():
