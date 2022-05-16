@@ -38,6 +38,6 @@ my_cur = my_cnx.cursor()
 my_cur.execute("SELECT * from FRUIT_LOAD_LIST")
 my_data_row = my_cur.fetchone()
 streamlit.text("The fruit list contains :")
-streamlit.text(my_data_row)
+streamlit.dataframe(my_data_row)
 
 
